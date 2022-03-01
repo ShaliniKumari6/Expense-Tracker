@@ -33,7 +33,7 @@ function App() {
      return [expense, ...prevExpense]
    })};
   return (
-  <div>
+  <div className="App">
     <NewExpense onAddExpense={addExpenseHendler}/>
   <Expenses items={expenses}></Expenses>
   </div>
